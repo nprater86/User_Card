@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idCard{
+    width: 500px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+}
+
+.topBar {
+    background: teal;
+    width: 500px;
+    height: 83.33px;
+}
+
+.content {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+#profilePic {
+    height: 50px;
+    width: 50px;
+}
+
+#mapPin{
+    height: 20px;
+    width: auto;
+}
+.location {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.location h4 {
+    margin-left: 15px;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+}
+
+.editProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.editProfile a {
+    margin-left: 5px;
+}
